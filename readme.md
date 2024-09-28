@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -33,7 +32,9 @@
 <body>
     <div class="container">
         <h1>Welcome to My GitHub Website!</h1>
-        <p>This is a simple website hosted on GitHub Pages. Here, you can find my projects, learn more about me, and explore my work!</p>
+        <p>This is a sample website for the computer subject</p>
+        <p>Elton Luther P. Estilo</p>
+        <p>8 OL Grace</p>
     </div>
 </body>
 </html>
