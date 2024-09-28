@@ -1,91 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Complex Website with Custom Fonts and Colors</title>
-  <link rel="stylesheet" href="style.css">
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:wght@300;700&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My GitHub Website</title>
+    <style>
+        body {
+            background-color: #f0f8ff; /* Light blue background */
+            color: #333; /* Dark text color */
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            text-align: center;
+        }
+        .container {
+            max-width: 600px;
+            padding: 20px;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            color: #4682b4;
+        }
+    </style>
 </head>
 <body>
-  <!-- Navigation Bar -->
-  <header class="header">
-    <nav>
-      <ul>
-        <li><a href="#home">Home</a></li>
-        <li><a href="#features">Features</a></li>
-        <li><a href="#pricing">Pricing</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
-
-  <!-- Hero Section -->
-  <section id="home" class="hero">
-    <div class="hero-content">
-      <h1>Discover the Beauty of Web Design</h1>
-      <p>Crafting beautiful websites with custom fonts and background colors.</p>
-      <a href="#features" class="btn">Explore Features</a>
+    <div class="container">
+        <h1>Welcome to My GitHub Website!</h1>
+        <p>This is a simple website hosted on GitHub Pages. Here, you can find my projects, learn more about me, and explore my work!</p>
     </div>
-  </section>
-
-  <!-- Features Section -->
-  <section id="features" class="features">
-    <h2>Our Features</h2>
-    <div class="feature-item">
-      <h3>Custom Fonts</h3>
-      <p>We use beautiful fonts to enhance the user experience and make your site stand out.</p>
-    </div>
-    <div class="feature-item">
-      <h3>Elegant Backgrounds</h3>
-      <p>Vibrant and calming background colors to create a unique feel for each section of your site.</p>
-    </div>
-    <div class="feature-item">
-      <h3>Responsive Design</h3>
-      <p>Your website will look great on any device, with fluid design and modern layouts.</p>
-    </div>
-  </section>
-
-  <!-- Pricing Section -->
-  <section id="pricing" class="pricing">
-    <h2>Pricing Plans</h2>
-    <div class="pricing-plan">
-      <h3>Basic Plan</h3>
-      <p>$19.99 / month</p>
-    </div>
-    <div class="pricing-plan">
-      <h3>Pro Plan</h3>
-      <p>$49.99 / month</p>
-    </div>
-    <div class="pricing-plan">
-      <h3>Enterprise Plan</h3>
-      <p>$99.99 / month</p>
-    </div>
-  </section>
-
-  <!-- Contact Section -->
-  <section id="contact" class="contact">
-    <h2>Contact Us</h2>
-    <form>
-      <label for="name">Name:</label>
-      <input type="text" id="name" name="name" required>
-
-      <label for="email">Email:</label>
-      <input type="email" id="email" name="email" required>
-
-      <label for="message">Message:</label>
-      <textarea id="message" name="message" rows="4" required></textarea>
-
-      <button type="submit">Send Message</button>
-    </form>
-  </section>
-
-  <footer>
-    <p>© 2024 Complex Website. All rights reserved.</p>
-  </footer>
-
-  <script src="script.js"></script>
 </body>
 </html>
